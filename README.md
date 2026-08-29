@@ -17,12 +17,12 @@ SVC modeli, dengesiz veri setlerinde ve karmaşık karar sınırlarında yüksek
 
 * **Confusion Matrix ve Classification Report:**
 <p align="center">
-  <img src="images/SVCRESULTS_6.png" width="700" alt="SVC Results">
+  <img src="images/SVCRESULTS.png" width="700" alt="SVC Results">
 </p>
 
 * **ROC Eğrisi ve AUC Skoru:** Model **0.9217** gibi oldukça yüksek bir AUC skoru elde ederek sınıflandırma yeteneğinin ne kadar güçlü olduğunu kanıtlamıştır.
 <p align="center">
-  <img src="images/SVCROCCURVE_5.png" width="700" alt="SVC ROC Curve">
+  <img src="images/SVCROCCURVE.png" width="700" alt="SVC ROC Curve">
 </p>
 
 ---
@@ -32,12 +32,12 @@ Doğrusal sınıflandırma problemlerinin vazgeçilmezi olan Lojistik Regresyon 
 
 * **Confusion Matrix ve Classification Report:**
 <p align="center">
-  <img src="images/LogRegResults_6.png" width="700" alt="Logistic Regression Results">
+  <img src="images/LogRegResults.png" width="700" alt="Logistic Regression Results">
 </p>
 
 * **ROC Eğrisi ve AUC Skoru:** Model **0.8265** AUC skoru ile genel eğri altında başarılı bir performans sergilemiştir.
 <p align="center">
-  <img src="images/LogRegROCCurve_6.png" width="700" alt="Logistic Regression ROC Curve">
+  <img src="images/LogRegROCCurve.png" width="700" alt="Logistic Regression ROC Curve">
 </p>
 
 ---
@@ -47,12 +47,12 @@ Olasılıksal temelli yaklaşımıyla bilinen GaussianNB modeli, hızlı sonuçl
 
 * **Confusion Matrix ve Classification Report:**
 <p align="center">
-  <img src="images/GaussianNBRESULTS_6.png" width="700" alt="GaussianNB Results">
+  <img src="images/GaussianNBRESULTS.png" width="700" alt="GaussianNB Results">
 </p>
 
 * **ROC Eğrisi ve AUC Skoru:** Model **0.8638** AUC skoruna ulaşmıştır.
 <p align="center">
-  <img src="images/GaussianNBROCCURVE_6.png" width="700" alt="GaussianNB ROC Curve">
+  <img src="images/GaussianNBROCCURVE.png" width="700" alt="GaussianNB ROC Curve">
 </p>
 
 ---
