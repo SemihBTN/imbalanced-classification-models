@@ -16,10 +16,10 @@ Bu depoda, farklı makine öğrenmesi algoritmalarının (`Support Vector Classi
 SVC modeli, dengesiz veri setlerinde ve karmaşık karar sınırlarında yüksek performans göstermiştir. Özel eşik değeri (`threshold = 0.25`) ile yapılan değerlendirmede model, dengeli bir precision ve recall dengesi yakalamıştır.
 
 * **Confusion Matrix ve Classification Report:**
-  ![SVC Results](images/SVCRESULTS_2.png)
+  ![SVC Results](images/SVCRESULTS_6.png)
 
 * **ROC Eğrisi ve AUC Skoru:** Model **0.9217** gibi oldukça yüksek bir AUC skoru elde ederek sınıflandırma yeteneğinin ne kadar güçlü olduğunu kanıtlamıştır.
-  ![SVC ROC Curve](images/SVCROCCURVE.png)
+  ![SVC ROC Curve](images/SVCROCCURVE_5.png)
 
 ---
 
@@ -27,10 +27,10 @@ SVC modeli, dengesiz veri setlerinde ve karmaşık karar sınırlarında yüksek
 Doğrusal sınıflandırma problemlerinin vazgeçilmezi olan Lojistik Regresyon modeli, özel eşik optimizasyonuyla birlikte test edilmiştir.
 
 * **Confusion Matrix ve Classification Report:**
-  ![Logistic Regression Results](images/LogRegResults_2.png)
+  ![Logistic Regression Results](images/LogRegResults_6.png)
 
 * **ROC Eğrisi ve AUC Skoru:** Model **0.8265** AUC skoru ile genel eğri altında başarılı bir performans sergilemiştir.
-  ![Logistic Regression ROC Curve](images/LogRegROCCurve_2.png)
+  ![Logistic Regression ROC Curve](images/LogRegROCCurve_6.png)
 
 ---
 
@@ -38,10 +38,10 @@ Doğrusal sınıflandırma problemlerinin vazgeçilmezi olan Lojistik Regresyon 
 Olasılıksal temelli yaklaşımıyla bilinen GaussianNB modeli, hızlı sonuçlar üretebilmesine rağmen azınlık sınıfındaki (`1` sınıfı) yakalama oranında (recall) diğer modellere nazaran daha düşük kalmıştır.
 
 * **Confusion Matrix ve Classification Report:**
-  ![GaussianNB Results](images/GaussianNBRESULTS_2.png)
+  ![GaussianNB Results](images/GaussianNBRESULTS_6.png)
 
 * **ROC Eğrisi ve AUC Skoru:** Model **0.8638** AUC skoruna ulaşmıştır.
-  ![GaussianNB ROC Curve](images/GaussianNBROCCURVE_2.png)
+  ![GaussianNB ROC Curve](images/GaussianNBROCCURVE_6.png)
 
 ---
 
