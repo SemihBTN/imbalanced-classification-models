@@ -47,8 +47,8 @@ Olasılıksal temelli yaklaşımıyla bilinen GaussianNB modeli, hızlı sonuçl
 
 ---
 📂 Proje Yapısı
-model_evaluation.ipynb: Tüm analizlerin, veri önişleme adımlarının ve model eğitim kod bloklarının bulunduğu Jupyter Notebook dosyası.
 
-ai4i2020.csv: Analizde kullanılan ham veri seti.
 
-README.md: Projenin genel özeti ve performans raporu.
+* `ai4i2020`: Analizde kullanılan ham veri seti.
+
+* `README`: Projenin genel özeti ve performans raporu.
