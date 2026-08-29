@@ -22,7 +22,7 @@ SVC modeli, dengesiz veri setlerinde ve karmaşık karar sınırlarında yüksek
   <img src="images/SVCRESULTS_2.png" alt="SVC Results" width="75%"/>
 </p>
 
-* **ROC Eğrisi ve AUC Skoru:** Model **0.9217** gibi oldukça yüksek bir AUC skoru elde ederek sınıflandırma yeteneğinin ne kadar güçlü olduğunu kanıtlamıştır[cite: 9].
+* **ROC Eğrisi ve AUC Skoru:** Model **0.9217** gibi oldukça yüksek bir AUC skoru elde ederek sınıflandırma yeteneğinin ne kadar güçlü olduğunu kanıtlamıştır.
 <p align="center">
   <img src="images/SVCROCCURVE.png" alt="SVC ROC Curve" width="75%"/>
 </p>
@@ -30,14 +30,14 @@ SVC modeli, dengesiz veri setlerinde ve karmaşık karar sınırlarında yüksek
 ---
 
 ### 2. Logistic Regression
-Doğrusal sınıflandırma problemlerinin vazgeçilmezi olan Lojistik Regresyon modeli, özel eşik optimizasyonuyla birlikte test edilmiştir[cite: 9].
+Doğrusal sınıflandırma problemlerinin vazgeçilmezi olan Lojistik Regresyon modeli, özel eşik optimizasyonuyla birlikte test edilmiştir.
 
 * **Confusion Matrix ve Classification Report:**
 <p align="center">
   <img src="images/LogRegResults_2.png" alt="Logistic Regression Results" width="75%"/>
 </p>
 
-* **ROC Eğrisi ve AUC Skoru:** Model **0.8265** AUC skoru ile genel eğri altında başarılı bir performans sergilemiştir[cite: 9].
+* **ROC Eğrisi ve AUC Skoru:** Model **0.8265** AUC skoru ile genel eğri altında başarılı bir performans sergilemiştir.
 <p align="center">
   <img src="images/LogRegROCCurve_2.png" alt="Logistic Regression ROC Curve" width="75%"/>
 </p>
@@ -45,14 +45,14 @@ Doğrusal sınıflandırma problemlerinin vazgeçilmezi olan Lojistik Regresyon 
 ---
 
 ### 3. Gaussian Naive Bayes (GaussianNB)
-Olasılıksal temelli yaklaşımıyla bilinen GaussianNB modeli, hızlı sonuçlar üretebilmesine rağmen azınlık sınıfındaki (`1` sınıfı) yakalama oranında (recall) diğer modellere nazaran daha düşük kalmıştır[cite: 9].
+Olasılıksal temelli yaklaşımıyla bilinen GaussianNB modeli, hızlı sonuçlar üretebilmesine rağmen azınlık sınıfındaki (`1` sınıfı) yakalama oranında (recall) diğer modellere nazaran daha düşük kalmıştır.
 
 * **Confusion Matrix ve Classification Report:**
 <p align="center">
   <img src="images/GaussianNBRESULTS_2.png" alt="GaussianNB Results" width="75%"/>
 </p>
 
-* **ROC Eğrisi ve AUC Skoru:** Model **0.8638** AUC skoruna ulaşmıştır[cite: 9].
+* **ROC Eğrisi ve AUC Skoru:** Model **0.8638** AUC skoruna ulaşmıştır.
 <p align="center">
   <img src="images/GaussianNBROCCURVE_2.png" alt="GaussianNB ROC Curve" width="75%"/>
 </p>
