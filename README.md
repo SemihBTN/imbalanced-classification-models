@@ -32,7 +32,7 @@ Doğrusal sınıflandırma problemlerinin vazgeçilmezi olan Lojistik Regresyon 
 
 * * **ROC Eğrisi ve AUC Skoru:** Model **0.8265** AUC skoru ile genel eğri altında başarılı bir performans sergilemiştir.
 
-![Confusion Matrix ve Classification Report](LogRegResults.png)
+![ROC Curve ve AUC Skoru](LogRegROCCurve.png)
 
 ### 3. Gaussian Naive Bayes (GaussianNB)
 Olasılıksal temelli yaklaşımıyla bilinen GaussianNB modeli, hızlı sonuçlar üretebilmesine rağmen azınlık sınıfındaki (`1` sınıfı) yakalama oranında (recall) diğer modellere nazaran daha düşük kalmıştır.
