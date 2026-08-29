@@ -49,6 +49,6 @@ Olasılıksal temelli yaklaşımıyla bilinen GaussianNB modeli, hızlı sonuçl
 📂 Proje Yapısı
 
 
-* `ai4i2020`: Analizde kullanılan ham veri seti.
+* `ai4i2020.csv`: Analizde kullanılan ham veri seti.
 
 * `README`: Projenin genel özeti ve performans raporu.
