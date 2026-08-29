@@ -30,7 +30,7 @@ Doğrusal sınıflandırma problemlerinin vazgeçilmezi olan Lojistik Regresyon 
 
 ![Confusion Matrix ve Classification Report](LogRegResults.png)
 
-* * **ROC Eğrisi ve AUC Skoru:** Model **0.8265** AUC skoru ile genel eğri altında başarılı bir performans sergilemiştir.
+* **ROC Eğrisi ve AUC Skoru:** Model **0.8265** AUC skoru ile genel eğri altında başarılı bir performans sergilemiştir.
 
 ![ROC Curve ve AUC Skoru](LogRegROCCurve.png)
 
