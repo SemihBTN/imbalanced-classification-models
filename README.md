@@ -16,7 +16,7 @@ Bu depoda, farklı makine öğrenmesi algoritmalarının (`Support Vector Classi
 SVC modeli, dengesiz veri setlerinde ve karmaşık karar sınırlarında yüksek performans göstermiştir. Özel eşik değeri (`threshold = 0.25`) ile yapılan değerlendirmede model, dengeli bir precision ve recall dengesi yakalamıştır.
 
 * **Confusion Matrix ve Classification Report:**
-* 
+  
 ![Confusion Matrix ve Classification Report](SVCRESULTS.png)
 
 **ROC Eğrisi ve AUC Skoru:** Model **0.9217** gibi oldukça yüksek bir AUC skoru elde ederek sınıflandırma yeteneğinin ne kadar güçlü olduğunu kanıtlamıştır.
@@ -28,11 +28,11 @@ Doğrusal sınıflandırma problemlerinin vazgeçilmezi olan Lojistik Regresyon 
 
 * **Confusion Matrix ve Classification Report:**
 
-* ![Confusion Matrix ve Classification Report](LogRegResults.png)
+![Confusion Matrix ve Classification Report](LogRegResults.png)
 
 * * **ROC Eğrisi ve AUC Skoru:** Model **0.8265** AUC skoru ile genel eğri altında başarılı bir performans sergilemiştir.
- 
-* ![ROC Curve ve AUC Skoru](LogRegROCCURVE.png)
+
+![ROC Curve ve AUC Skoru](LogRegROCCURVE.png)
 
 ### 3. Gaussian Naive Bayes (GaussianNB)
 Olasılıksal temelli yaklaşımıyla bilinen GaussianNB modeli, hızlı sonuçlar üretebilmesine rağmen azınlık sınıfındaki (`1` sınıfı) yakalama oranında (recall) diğer modellere nazaran daha düşük kalmıştır.
